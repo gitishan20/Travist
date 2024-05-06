@@ -4,7 +4,7 @@ import AboutImg from "../asset/night.jpg"
 function About (){
     return(
         <>
-        <Navbar />
+        <NavbaR />
 
       <Hero
         cName=".hero-mid"
