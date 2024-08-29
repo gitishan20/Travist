@@ -1,15 +1,25 @@
-
-import Navbar from "../components/Navbar"
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import AboutImg from "../asset/1.jpg"
 function Service (){
     return(
         <>
-        <Navbar/>
+        <Navbar />
 
-        <h1>This is Service</h1>
+      <Hero
+        cName="hero-mid"
+        heroImg={AboutImg}
+         title="Service"
+         
+         
+        
+         url="/"
+         
+      />
+    </>
+        
 
-
-        </>
-    )
+         
+    );
 }
-
 export default Service;

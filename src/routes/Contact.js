@@ -1,17 +1,25 @@
-import Navbar from "../components/Navbar"
-
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import AboutImg from "../asset/2.jpg"
 function Contact (){
     return(
         <>
-   
-    
-        <Navbar/>
+        <Navbar />
 
-        <h1>This is Contact</h1>
+      <Hero
+        cName="hero-mid"
+        heroImg={AboutImg}
+         title="Contact"
+         
+         
+        
+         url="/"
+         
+      />
+    </>
+        
 
-
-        </>
-    )
+         
+    );
 }
-
 export default Contact;

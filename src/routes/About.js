@@ -7,7 +7,7 @@ function About (){
         <Navbar />
 
       <Hero
-        cName=".hero-mid"
+        cName="hero-mid"
         heroImg={AboutImg}
          title="About"
          
@@ -19,7 +19,7 @@ function About (){
     </>
         
 
-        
+         
     );
 }
 

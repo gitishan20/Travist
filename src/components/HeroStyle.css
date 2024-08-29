@@ -9,6 +9,9 @@
     height: 70vh;
     position: relative;
 }
+.hero-mid h1{
+    padding-top: 4rem !important;
+}
 
 img{
     width: 100%;
